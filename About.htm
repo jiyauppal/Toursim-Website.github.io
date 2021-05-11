@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="About.css">
+<script language="javascript" type="text/javascript">
+function msg()
+{
+document.getElementById("abc").innerHTML="phone no:8684057140,7018282603";
+}
+
+function validateform(){  
+var password=document.forms["myform"]["jia"].value;
+
+  
+   if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+  }
+ </script>
+ 
+</head>
+<body>
+<h1 class="e" align="center"> About us <h1>
+<p class="d"> Although EXPLORE-IN Travel was started by a single individual, it is a website dedicated to and created by the travel community. Anyone is free to share their experiences with us, so if you have something to say, be sure to drop us a line. </p>
+<p class="f"> EXPLORE-IN is an international online travel agency. The website is owned by EXPLORE-IN Group , one of the world's largest online travel agencies with over 400 million users worldwide.
+The site provides booking services for flights, hotels, trains, car rentals, airport transfers, tours and attraction tickets, and claims to offer more than 1.2 million hotels in 200 countries and regions, as well as over 2 million flight routes connecting more than 5,000 cities. Train tickets for use in the UK, Germany, Japan, South Korea, and Mainland China are also available for purchase on the site.
+EXPLORE-IN is available in 19 different languages, including English, Mandarin Chinese, Japanese, Korean, Russian, German, French, Italian, Spanish, Dutch, Turkish, Polish, Greek, Indonesian, Malaysian and Thai, with the mobile app also featuring Vietnamese and Filipino. It also provides localized English versions for Australia, Singapore and Hong Kong.</p>
+
+<img src="tourist.jpg" alt="tourist" width="800px" height="500px">
+ <div id="jn">
+ <p> Give your precious feedback </p>
+ <form name="myform" method="post" onsubmit="return validateform()">
+ First name:<input type="text"> <br>
+ Last name:<input type="text">
+ Email:<input type="email">
+ username:<input type="text">
+ password:<input type="password" placeholder="password" name="jia">
+<input type="submit" value="submit">
+</div>
+</form>
+<div id="abc">
+<marquee>
+<button onclick="msg()"> <img src="clickheree.jpg"> </button>
+</marquee>
+
+</div>
+</div>
+<div class="ja">
+<footer>JIYA UPPAL(1902104) <br> ISHAAN SEHGAL(1902092)</footer>
+</div>
+
+</body>
+
+</html>

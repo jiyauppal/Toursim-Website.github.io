@@ -1,0 +1,60 @@
+body {
+	background-image: url("projectimg1.jpg");
+	
+}
+ul{
+	float:right;
+	list-style-type:none;
+	margin-bottom:100px;
+}
+ul li{
+display:inline-block;
+}
+ul li a{
+text-decoration:none;
+color: white;
+padding:5px 20px;
+border:1px solid;
+}	
+#jii{
+	float:right;
+}
+#upp{
+	max-width:250px;
+border-radius:13px;
+background:rgba(0,0,0,0.8);
+box-sizing:border-box;
+position:absolute;
+right:550px;
+top:70%;
+Transform:tanslate(-50%, -50%);
+padding-bottom:10px;
+padding-left:25px;
+color:#fff;
+margin-top:35px;
+}
+#title{
+	text-align:center;
+	color:white;
+	padding-top:150px;
+}
+#title h1{
+	font-size:50px;
+}
+
+	footer {
+
+	color:white;
+	font-family:georgia;
+	font-size:10px;
+	text-align:center;
+	background-color:black;
+	padding:3px;
+}
+.ja {
+	margin-top:500px;
+}
+
+	
+	
+	

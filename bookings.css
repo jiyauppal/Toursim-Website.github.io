@@ -1,0 +1,30 @@
+body{
+	background-color:#b0e0e0e6;
+}
+.b{
+	text-align:left;
+	padding-top:20px;
+	font-size:30px;
+	font-family:georgia;
+	
+}
+.c{
+	text-align:center;
+	font-size:50px;
+	font-family:georgia;
+	text-decoration:underline;
+}
+	
+
+	footer {
+
+	color:white;
+	font-family:georgia;
+	font-size:10px;
+	text-align:center;
+	background-color:black;
+	padding:3px;
+}
+.ja {
+	margin-top:45px;
+}
